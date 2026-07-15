@@ -1,5 +1,7 @@
 # 🖥️ AI System Monitor
-
+---
+## for the refrence of psutil library you can refer to = https://psutil.readthedocs.io/stable/
+--- 
 An AI-powered System Monitor built using **LangChain** and **Groq LLM**.
 The application allows users to ask questions about their computer in
 natural language, and the AI retrieves real-time system information

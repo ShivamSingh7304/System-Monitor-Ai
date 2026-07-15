@@ -19,3 +19,5 @@ chromadb
 langchain-chroma
 sentence-transformers
 faiss-cpu
+
+speedtest-cli

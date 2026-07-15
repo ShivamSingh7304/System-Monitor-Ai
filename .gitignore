@@ -1,0 +1,83 @@
+```gitignore
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# SQLite Databases
+*.db
+*.sqlite3
+
+# Generated Reports
+reports/
+output/
+results/
+
+# Downloads
+downloads/
+
+# Model Files (optional)
+models/
+checkpoints/
+
+# Large Files
+*.zip
+*.tar
+*.gz
+
+# Bytecode
+*.pyc
+
+# Misc
+*.bak
+```
