@@ -1,23 +1,32 @@
+# Core LangChain
 langchain
+langchain-core
+langchain-community
 langchain-groq
-python-dotenv
-psutil
-
-langchain-core 
-langchain-community 
 langchain-huggingface
 langchain-text-splitters
+langchain-chroma
+
+# Hugging Face
 transformers
 huggingface-hub
-numpy
-scikit-learn
-torch
-grandalf
-pypdf
-beautifulsoup4
-chromadb 
-langchain-chroma
 sentence-transformers
+
+# Vector Databases
+chromadb
 faiss-cpu
 
+# Machine Learning
+torch
+numpy
+scikit-learn
+
+# Document Processing
+pypdf
+beautifulsoup4
+
+# Utilities
+python-dotenv
+psutil
 speedtest-cli
+grandalf

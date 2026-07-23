@@ -2,12 +2,12 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, ToolMessage
 
-from Stats_Functions.cpu import cpu_stats
-from Stats_Functions.battery import battery_stats
-from Stats_Functions.disk import disk_status
-from Stats_Functions.Ram import ram_stats
-from Stats_Functions.speed_test import speed_test
-from Stats_Functions.operating_system import operating_system
+from Stats_Functions import cpu_stats
+from Stats_Functions import battery_stats
+from Stats_Functions import disk_status
+from Stats_Functions import ram_stats
+from Stats_Functions import speed_test
+from Stats_Functions import operating_system
 
 load_dotenv()
 
